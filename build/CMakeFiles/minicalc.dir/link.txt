@@ -1,0 +1,1 @@
+/usr/bin/clang++ -Wall -Werror -g -rdynamic CMakeFiles/minicalc.dir/src/main.cpp.o -o minicalc  liblexer.a 

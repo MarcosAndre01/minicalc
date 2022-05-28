@@ -1,0 +1,4 @@
+/home/andre/Code/compiladores/minicalc/build/CMakeFiles/lexer.dir
+/home/andre/Code/compiladores/minicalc/build/CMakeFiles/minicalc.dir
+/home/andre/Code/compiladores/minicalc/build/CMakeFiles/edit_cache.dir
+/home/andre/Code/compiladores/minicalc/build/CMakeFiles/rebuild_cache.dir
