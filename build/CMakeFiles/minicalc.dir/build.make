@@ -93,6 +93,7 @@ minicalc_EXTERNAL_OBJECTS =
 minicalc: CMakeFiles/minicalc.dir/src/main.cpp.o
 minicalc: CMakeFiles/minicalc.dir/build.make
 minicalc: liblexer.a
+minicalc: libparser.a
 minicalc: CMakeFiles/minicalc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andre/Code/compiladores/minicalc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minicalc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minicalc.dir/link.txt --verbose=$(VERBOSE)

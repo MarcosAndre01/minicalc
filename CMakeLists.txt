@@ -8,6 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include_directories(include/)
 
 add_library(lexer src/lexer.cpp)
+add_library(parser src/parser.cpp)
 
 add_executable(minicalc src/main.cpp)
-target_link_libraries(minicalc lexer)
+target_link_libraries(minicalc lexer parser)

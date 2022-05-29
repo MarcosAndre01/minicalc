@@ -1,5 +1,6 @@
-CMakeFiles/minicalc.dir/src/main.cpp.o: \
-  /home/andre/Code/compiladores/minicalc/src/main.cpp \
+CMakeFiles/parser.dir/src/parser.cpp.o: \
+  /home/andre/Code/compiladores/minicalc/src/parser.cpp \
+  /home/andre/Code/compiladores/minicalc/include/parser.hpp \
   /home/andre/Code/compiladores/minicalc/include/lexer.hpp \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/iostream \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux/bits/c++config.h \
@@ -150,7 +151,6 @@ CMakeFiles/minicalc.dir/src/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/istream \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/bits/istream.tcc \
-  /home/andre/Code/compiladores/minicalc/include/parser.hpp \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/memory \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/bits/stl_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/bits/stl_tempbuf.h \

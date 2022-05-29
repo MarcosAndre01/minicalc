@@ -8,13 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/andre/Code/compiladores/minicalc/src/main.cpp" "CMakeFiles/minicalc.dir/src/main.cpp.o" "gcc" "CMakeFiles/minicalc.dir/src/main.cpp.o.d"
+  "/home/andre/Code/compiladores/minicalc/src/parser.cpp" "CMakeFiles/parser.dir/src/parser.cpp.o" "gcc" "CMakeFiles/parser.dir/src/parser.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/andre/Code/compiladores/minicalc/build/CMakeFiles/lexer.dir/DependInfo.cmake"
-  "/home/andre/Code/compiladores/minicalc/build/CMakeFiles/parser.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

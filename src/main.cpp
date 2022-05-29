@@ -1,10 +1,11 @@
 #include "lexer.hpp"
+#include "parser.hpp"
 #include <iostream>
+#include <memory>
 
 int main() {
-  Lexer lexer = Lexer("print (300 * 20) + 2");
-
-  for (Token prox = lexer.proximo_token();
-       prox.tipo() != TipoToken::FIM_ARQUIVO; prox = lexer.proximo_token())
-    prox.print();
+  std::string entrada = "print (((10 * 2)+(10 * 2)) + 1)";
+  Lexer lexer = Lexer(entrada);
+  std::unique_ptr<Expressao> expressao = analisar_programa(lexer);
+  std::cout << expressao->valor() << std::endl;
 }

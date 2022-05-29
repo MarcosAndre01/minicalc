@@ -11,6 +11,7 @@ Token::Token(TipoToken tipo, char texto)
     : tipo_(tipo), texto_(std::string(1, texto)) {}
 
 TipoToken Token::tipo() const { return tipo_; }
+std::string Token::texto() const { return texto_; }
 
 void Token::print() const {
   std::cout << "{Tipo: " << tipo_ << ", Símbolo: " << texto_ << "}"
@@ -21,7 +22,7 @@ std::ostream &operator<<(std::ostream &os, TipoToken token) {
   switch (token) {
   case TipoToken::PRINT:
     return os << "Print";
-  case TipoToken::FIM_ARQUIVO:
+  case TipoToken::FIM:
     return os << "Fim do Arquivo";
   case TipoToken::ABRE_PARENTESE:
     return os << "Abre Parentese";
@@ -46,7 +47,7 @@ Token Lexer::proximo_token() {
   }
 
   if (cursor_ >= entrada_.length()) { // Usar arquivo ao invés de string ?
-    return Token(TipoToken::FIM_ARQUIVO, EOF);
+    return Token(TipoToken::FIM, EOF);
   }
 
   char prox = entrada_[cursor_];

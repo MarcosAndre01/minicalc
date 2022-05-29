@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/andre/Code/compiladores/minicalc/build",
+  "command": "/usr/bin/clang++  -I/home/andre/Code/compiladores/minicalc/include -Wall -Werror -g -std=gnu++17 -o CMakeFiles/parser.dir/src/parser.cpp.o -c /home/andre/Code/compiladores/minicalc/src/parser.cpp",
+  "file": "/home/andre/Code/compiladores/minicalc/src/parser.cpp"
+},
+{
+  "directory": "/home/andre/Code/compiladores/minicalc/build",
   "command": "/usr/bin/clang++  -I/home/andre/Code/compiladores/minicalc/include -Wall -Werror -g -std=gnu++17 -o CMakeFiles/minicalc.dir/src/main.cpp.o -c /home/andre/Code/compiladores/minicalc/src/main.cpp",
   "file": "/home/andre/Code/compiladores/minicalc/src/main.cpp"
 }

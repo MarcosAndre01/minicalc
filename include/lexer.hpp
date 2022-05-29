@@ -4,7 +4,7 @@
 
 enum class TipoToken {
   PRINT,
-  FIM_ARQUIVO,
+  FIM,
   ABRE_PARENTESE,
   FECHA_PARENTESE,
   SOMA,
@@ -20,6 +20,7 @@ public:
   Token(TipoToken tipo, char texto);
   TipoToken tipo() const;
   void print() const;
+  std::string texto() const;
 
 private:
   TipoToken tipo_;
